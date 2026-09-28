@@ -1,0 +1,6 @@
+{
+  "name": "Aquila Chronomechanica — Sovereign Clockwork Avian Automaton",
+  "description": "Ultra-premium interactive 3D web application featuring Aquila Chronomechanica with deep pinch-to-zoom, Dynamic LOD, double-tap-to-focus, spatial flight path animation, extreme anatomical explode mode, and adaptive UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

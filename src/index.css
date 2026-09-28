@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cinzel', Georgia, serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+}
+
+.font-cinzel {
+  font-family: var(--font-serif);
+}
+
+.font-mono-tech {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Technical drafting background grid */
+.tech-drafting-grid {
+  background-color: #f7f7f5;
+  background-image: 
+    radial-gradient(#2c3e50 0.75px, transparent 0.75px),
+    linear-gradient(to right, rgba(44, 62, 80, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(44, 62, 80, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px, 48px 48px, 48px 48px;
+  background-position: 0 0, 0 0, 0 0;
+}
+
+.blueprint-grid {
+  background-color: #0b1a2b;
+  background-image: 
+    linear-gradient(to right, rgba(94, 161, 237, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(94, 161, 237, 0.12) 1px, transparent 1px),
+    linear-gradient(to right, rgba(94, 161, 237, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(94, 161, 237, 0.04) 1px, transparent 1px);
+  background-size: 80px 80px, 80px 80px, 16px 16px, 16px 16px;
+}
